@@ -207,7 +207,7 @@ nav a {
 .banner {
     width: 100%;
     height: 90vh;
-    background-image: url("../img/banner/banner.png");
+    background-image: url("../img/bg/bg.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1007,7 +1007,7 @@ nav a {
 
 }
 
-.form__inf-btn a:hover{
+.form__inf-btn a:hover {
     background: #4e614b;
     color: white;
 }
