@@ -1,3 +1,5 @@
+'use stict';
+
 const slides = document.querySelector('.slides');
 const slide = document.querySelectorAll('.slide');
 const prevBtn = document.getElementById('prevBtn');
@@ -36,7 +38,7 @@ let autoSlideInterval = setInterval(() => {
         currentIndex = 0;
     }
     updateSliderPosition();
-}, 3000); // Смена слайда каждые 3 секунды
+}, 2500); // Смена слайда каждые 3 секунды
 
 // Остановка автопереключения при взаимодействии с кнопками
 nextBtn.addEventListener('click', () => {
